@@ -1,0 +1,12 @@
+#Faça um programa que pede 4 notas de um aluno. Em seguida ele deve calcular a média do aluno e dar o seguinte
+
+nota1=float(input("Insira a nota do aluno:")) 
+nota2=float(input("Insira a nota do aluno:")) 
+nota3=float(input("Insira a nota do aluno:")) 
+nota4=float(input("Insira a nota do aluno:")) 
+dados = (nota1 + nota2 + nota3 + nota4)/4
+if dados >= 7 :
+   print("Aprovado!")
+else:
+   print("Reprovado!")
+   
