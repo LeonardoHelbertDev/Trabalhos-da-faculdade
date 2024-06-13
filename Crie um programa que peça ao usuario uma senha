@@ -1,0 +1,9 @@
+#Crie um programa que peça ao usuario uma senha, se a senha for "dev24" escreva a mensagem "Acesso permitido", se nao acesso negado
+
+senha : str = ("dev24")
+senha1 : str = input("Digite sua senha:")
+if senha == senha1:
+   print("ACESSO PERMITIDO")
+else:
+   print("ACESSO NEGADO, SENHA INVALIDA")
+
